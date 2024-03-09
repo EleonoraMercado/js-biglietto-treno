@@ -1,11 +1,11 @@
 //chiedere all'utente il numero di km che vuole percorrere
 
-let kmDaPercorrere =  parseFloat(prompt('Inserisci il numero di km da percorrere:')); //string | null \ number
+let kmDaPercorrere =  parseInt(prompt('Inserisci il numero di km da percorrere:')); //number
 console.log("Percorrerai:" + kmDaPercorrere);
 
 //chiedere l'età del passeggero
 
-const eta = parseInt(prompt('Inserisci la tua età:')); //string | null \ number
+const eta = parseInt(prompt('Inserisci la tua età:')); //number
 console.log("La tua età è:" + eta); //function
 //calcolare prezzo base
 
